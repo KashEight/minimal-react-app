@@ -1,0 +1,23 @@
+{
+  "name": "minimal-react-app",
+  "version": "1.0.0",
+  "description": "minimal react application used `parcel`",
+  "author": "kash / Hytus",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KashEight/minimal-react-app.git"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
